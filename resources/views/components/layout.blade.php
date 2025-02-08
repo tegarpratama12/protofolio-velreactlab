@@ -28,12 +28,8 @@
     <!-- Back to top button -->
     <div class="back-to-top"></div>
 
-    <header>
 
-        @include('components.navbar')
-        @include('components.header')
-    </header>
-
+    @include('components.header')
     <main>
         @yield('content')
     </main>

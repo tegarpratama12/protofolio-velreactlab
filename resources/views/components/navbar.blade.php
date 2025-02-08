@@ -10,17 +10,17 @@
 
         <div class="navbar-collapse collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                <li class="nav-item {{ request()->is('*') ? 'active' : '' }}">
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link " href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services</a>
+                    <a class="nav-link" href="/service">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="service.html">Contact Us</a>
+                    <a class="nav-link" href="/contact">Contact Us</a>
                 </li>
             </ul>
         </div>
