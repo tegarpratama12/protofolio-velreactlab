@@ -10,6 +10,7 @@
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
     <title>{{ $title }}</title>
+    <link rel="icon" type="image/png" href="/img/logo-bg.png">
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
