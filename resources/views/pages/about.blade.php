@@ -2,6 +2,7 @@
 
 @section('content')
     
+
 <div class="page-section" id="about">
     <div class="container">
         <div class="row align-items-center">
