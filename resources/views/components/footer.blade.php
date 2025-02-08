@@ -20,10 +20,10 @@
             <div class="col-lg-4 py-3">
                 <h5>Company</h5>
                 <ul class="footer-menu list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
 
