@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// adding route testing
+Route::get('/testing', function () {
+    return ('hello');
+});
+// end route testing
