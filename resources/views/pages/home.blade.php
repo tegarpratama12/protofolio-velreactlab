@@ -1,6 +1,7 @@
 @extends('components.layout')
 
 @section('content')
+    @include('components.header')
     <div class="page-section">
         <div class="container">
             <div class="text-center wow fadeInUp">
@@ -235,7 +236,7 @@
                         </div>
                         <div class="body">
                             <h5 class="post-title"><a href="#">student registration system</a></h5>
-                            
+
                         </div>
                     </div>
                 </div>

@@ -27,9 +27,9 @@
 
     <!-- Back to top button -->
     <div class="back-to-top"></div>
+    @include('components.navbar')
 
 
-    @include('components.header')
     <main>
         @yield('content')
     </main>

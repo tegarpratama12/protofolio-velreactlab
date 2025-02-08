@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home', [
-        'title' => 'Home' 
+        'title' => 'Home'
     ]);
 })->name('home');
 Route::get('/about', function () {
@@ -33,4 +33,8 @@ Route::get('/contact', function () {
         'title' => 'Contact'
     ]);
 })->name('contact');
+
+Route::get('/index', function () {
+    return view('template.about');
+});
 
