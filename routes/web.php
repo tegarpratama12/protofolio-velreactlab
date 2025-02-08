@@ -22,3 +22,10 @@ Route::get('/testing', function () {
     return ('hello');
 });
 // end route testing
+
+
+// adding route list
+Route::get('/list_2', function () {
+    return ('list 2');
+});
+// end adding route list
