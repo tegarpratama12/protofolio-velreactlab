@@ -19,6 +19,7 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
+
 Route::get('/about', function () {
     return view('pages.about', [
         'title' => 'About'
