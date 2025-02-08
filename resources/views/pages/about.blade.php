@@ -6,7 +6,6 @@
             <h1 class="text-center fs-3 fw-bold ">About Us</h1>
             <div class="row align-items-center">
                 <div class="col-lg-6 py-3 wow fadeInUp">
-
                     <p>Velreact Lab is a team of professionals specializing in the development of modern and
                         responsive
                         websites. We leverage Laravel as a robust backend framework, combined with Tailwind CSS,
@@ -26,6 +25,9 @@
             </div>
             {{-- content 1 --}}
             <div class="container my-5">
+                <h1 class="text-center fs-3 fw-bold mb-4">Our Team
+                    <hr class="thick-hr mt-4">
+                </h1>
                 <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
                     <div class="row g-0 align-items-center">
                         <!-- Bagian Gambar -->
@@ -72,8 +74,8 @@
                         </div>
 
                         <!-- Bagian Gambar (Sekarang di kanan) -->
-                        <div class="col-md-6 order-md-2"> <!-- Urutan kedua di layar medium ke atas -->
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid w-100 h-100"
+                        <div class="col-md-6 text-center order-md-2"> <!-- Urutan kedua di layar medium ke atas -->
+                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid w-50 h-50"
                                 style="object-fit: cover; min-height: 300px;">
                         </div>
                     </div>
@@ -86,8 +88,8 @@
                 <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
                     <div class="row g-0 align-items-center">
                         <!-- Bagian Gambar -->
-                        <div class="col-md-6">
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-100 w-100"
+                        <div class="col-md-6 text-center">
+                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-50 w-50"
                                 style="object-fit: cover; min-height: 300px;">
                         </div>
 

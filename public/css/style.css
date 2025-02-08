@@ -43,3 +43,11 @@
 }
 
 /* end style maps */
+
+.thick-hr {
+    border: none;           /* Menghilangkan border default */
+    height: 4px;            /* Mengatur ketebalan garis */
+    background-color:rgb(194, 194, 194); /* Warna hitam, bisa diubah sesuai kebutuhan */
+    width: 100%;             /* Membuat garis lebih pendek dan seimbang */
+    margin: 0 auto;         /* Agar tetap berada di tengah */
+}
