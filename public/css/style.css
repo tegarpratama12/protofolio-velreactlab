@@ -1,0 +1,23 @@
+.profile-img {
+    width: 150px;
+    /* Tentukan lebar yang sama dengan tinggi */
+    height: 150px;
+    /* Pastikan tinggi sama untuk lingkaran sempurna */
+    object-fit: cover;
+    /* Memastikan gambar tetap proporsional dan terpotong rapi */
+    /* Opsional: menambahkan border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Opsional: bayangan untuk efek lebih menarik */
+}
+
+.icon-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
+    cursor: pointer; /* Kursor menjadi pointer saat hover */
+    padding: 5px; /* Memberikan ruang di sekitar ikon */
+}
+
+.icon-hover:hover {
+    transform: scale(1.2); /* Membesarkan ikon saat hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+    border-radius: 10px; /* Sudut sedikit melengkung saat hover */
+}

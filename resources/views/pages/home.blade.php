@@ -3,16 +3,42 @@
 @section('content')
     <div class="page-section">
         <div class="container">
+            <div class="text-center wow fadeInUp">
+                <div class="subhead">Our Team</div>
+                <h2 class="title-section">Strong Together, Creating Impactful Web Solutions.</h2>
+                <div class="divider mx-auto"></div>
+            </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card-service wow fadeInUp">
-                        <div class="header">
-                            <img src="../assets/img/services/service-1.svg" alt="">
+                        <div class="header text-center">
+                            <img src="img/index.jpg" class="img-fluid rounded-circle profile-img" alt="Profile Image">
                         </div>
                         <div class="body">
-                            <h5 class="text-secondary">SEO Consultancy</h5>
-                            <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                            <a href="service.html" class="btn btn-primary">Read More</a>
+                            <h5 class="text-secondary">Tegar Pratama</h5>
+                            <p>Handling backend development with Laravel for efficient and scalable solutions.</p>
+
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-unstyled d-flex m-0 p-0">
+                                    <li class="mx-3"> <!-- Memberikan margin horizontal -->
+                                        <a href="#">
+                                            <img src="img/ig.svg" class="icon-hover" width="50" alt="Instagram Icon">
+                                        </a>
+                                    </li>
+                                    <li class="mx-3"> <!-- Jarak antar ikon -->
+                                        <a href="#">
+                                            <img src="img/github.svg" class="icon-hover" width="50" alt="GitHub Icon">
+                                        </a>
+                                    </li>
+                                    <li class="mx-3"> <!-- Jarak antar ikon -->
+                                        <a href="#">
+                                            <img src="img/linkin.svg" class="icon-hover" width="50" alt="LinkedIn Icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -85,10 +111,10 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
                     <div class="features">
                         <div class="header mb-3">
-                            <span class="mai-business"></span>
+                            <img src="img/reactjs.svg" width="60%" alt="">
                         </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
+                        <h5>React Js</h5>
+                        <p>Developing fast, responsive, and intuitive user interfaces for modern web applications.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -96,17 +122,17 @@
                         <div class="header mb-3">
                             <img src="img/tailwind.svg" width="60%" alt="">
                         </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
+                        <h5>Tailwind CSS</h5>
+                        <p>Crafting pixel-perfect, responsive designs with unparalleled speed and flexibility.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
                     <div class="features">
                         <div class="header mb-3">
-                            <span class="mai-business"></span>
+                            <img src="img/js.svg" width="60%" alt="">
                         </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
+                        <h5>JavaScript</h5>
+                        <p>Bringing websites to life with dynamic, interactive, and seamless user experiences.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -114,44 +140,8 @@
                         <div class="header mb-3">
                             <img src="img/laravel-2.svg" width="60%" alt="">
                         </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                    <div class="features">
-                        <div class="header mb-3">
-                            <span class="mai-business"></span>
-                        </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                    <div class="features">
-                        <div class="header mb-3">
-                            <span class="mai-business"></span>
-                        </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                    <div class="features">
-                        <div class="header mb-3">
-                            <span class="mai-business"></span>
-                        </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-                    <div class="features">
-                        <div class="header mb-3">
-                            <span class="mai-business"></span>
-                        </div>
-                        <h5>OnSite SEO</h5>
-                        <p>We analyse your website's structure, internal architecture & other key</p>
+                        <h5>Laravel</h5>
+                        <p>Empowering robust, secure, and scalable web applications with elegant backend architecture.</p>
                     </div>
                 </div>
             </div>

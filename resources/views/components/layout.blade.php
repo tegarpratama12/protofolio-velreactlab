@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
     <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
