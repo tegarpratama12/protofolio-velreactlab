@@ -24,14 +24,13 @@
                     </div>
                 </div>
             </div>
-
             {{-- content 1 --}}
             <div class="container my-5">
                 <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
                     <div class="row g-0 align-items-center">
                         <!-- Bagian Gambar -->
-                        <div class="col-md-6">
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-100 w-100"
+                        <div class="col-md-6 text-center">
+                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-50 w-50 "
                                 style="object-fit: cover; min-height: 300px;">
                         </div>
 
