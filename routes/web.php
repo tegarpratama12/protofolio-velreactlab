@@ -39,6 +39,6 @@ Route::get('/contact', function () {
 })->name('contact');
 
 Route::get('/index', function () {
-    return view('template.about');
+    return view('template.contact');
 });
 
