@@ -74,8 +74,7 @@
                         <div id="google-maps">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3963.635082776137!2d110.66822290497592!3d-6.567658079934388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMzQnMDQuMCJTIDExMMKwNDAnMTQuNiJF!5e0!3m2!1sid!2sid!4v1739011632153!5m2!1sid!2sid"
-                                style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
                     </div>
