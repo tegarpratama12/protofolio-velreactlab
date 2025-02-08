@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('components.layout');
+    return view('pages.index');
 });
 
 // adding route testing

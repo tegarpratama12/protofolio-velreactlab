@@ -63,9 +63,9 @@
       <div class="page-banner home-banner">
         <div class="row align-items-center flex-wrap-reverse h-100">
           <div class="col-md-6 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Let's Check and Optimize your website!</h1>
-            <p class="text-lg text-grey mb-5">Ignite the most powerfull growth engine you have ever built for your company</p>
-            <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+            <h2 class="mb-4">Code it clean make it fast<br>
+              With VelReact your site's built to last!</h2>
+            <p class="text-lg text-grey mb-5">At VelReact, we craft clean, efficient, and high-performance Laravel applications. Our expertise ensures fast, scalable, and reliable web solutions that stand the test of time. Whether it's a startup or enterprise-level project, we build with precision to keep your site running smoothly and securely. Trust VelReact where quality code meets lasting performance.</p>
           </div>
           <div class="col-md-6 py-5 wow zoomIn">
             <div class="img-fluid text-center">
