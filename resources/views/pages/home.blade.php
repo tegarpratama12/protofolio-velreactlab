@@ -30,16 +30,16 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <h4 class="text-center"><strong>Back End Developer</strong></h4>
+                            <h4 class="text-center"><strong>FullStack Developer</strong></h4>
                             <hr>
                             <div class="profile-card-2">
                                 <img src="img/index.jpg" class="img img-responsive" width="100%" alt="Profile Image">
-                                <div class="profile-name">Tegar Pratama</div>
-                                <div class="profile-username">@tegarprarama461@gmail.com</div>
+                                <div class="profile-name">Wildan Abdun Naseer</div>
+                                <div class="profile-username">wildanabdunn@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-github"></i></a>
+                                    <a href="https://www.instagram.com/w.a.n_wd/"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/wildan-abdun-naseer-803a60326"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/wildun19"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>

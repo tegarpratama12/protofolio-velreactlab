@@ -78,26 +78,39 @@
                         </article>
                         <article class="postcard light red">
                             <a class="postcard__img_link" href="#">
-                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                                <img class="postcard__img" src="{{ asset('img/profile-wan.jpeg') }}" alt="Image Title" />
                             </a>
                             <div class="postcard__text t-dark">
-                                <h1 class="postcard__title "><a href="#">Podcast Title</a></h1>
+                                <h1 class="postcard__title "><a href="#">Wildan Abdun Naseer</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
-                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                        <p class="px-2 fw-bold">Back End <span
+                                                class="text-primary span-dev px-2">Developer</span></p>
                                     </time>
                                 </div>
                                 <div class="postcard__bar"></div>
-                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia,
-                                    doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis
-                                    molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla
-                                    unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <div class="postcard__preview-txt">I am a full-stack web developer specializing in
+                                    Laravel. I am responsible for end-to-end web application development, including
+                                    database design and management, API development, and performance optimization to
+                                    ensure secure, efficient, and scalable applications. With expertise in both frontend
+                                    and backend technologies, I integrate modern tools to create innovative solutions that
+                                    meet user needs and industry standards. I am committed to continuous learning and
+                                    delivering high-quality applications by following best practices in software development.
+                                </div>
                                 <ul class="postcard__tagbox">
-                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-                                    <li class="tag__item play red">
-                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    <li class="tag__item">
+                                        <a href="https://www.instagram.com/w.a.n_wd/">
+                                            <i class="bi bi-instagram"></i> Instagram
+                                        </a>
+                                    </li>
+                                    <li class="tag__item">
+                                        <a href="https://www.linkedin.com/in/wildan-abdun-naseer-803a60326">
+                                            <i class="bi bi-linkedin"></i> Linkedin
+                                    </li>
+                                    </a>
+                                    <li class="tag__item play blue">
+                                        <a href="https://github.com/wildun19">
+                                            <i class="bi bi-github"></i> Github</a>
                                     </li>
                                 </ul>
                             </div>
