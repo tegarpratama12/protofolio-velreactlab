@@ -124,17 +124,11 @@
                     <div class="card-blog">
                         <div class="header">
                             <div class="post-thumb">
-                                <img src="/img/1.desain-produk.png" alt="">
+                                <img src="/img/2.auto-wash.png" alt="">
                             </div>
                         </div>
                         <div class="body">
-                            <<<<<<< HEAD <h5 class="post-title"><a href="">information systems product design study
-                                    program</a></h5>
-                                =======
-                                <h5 class="post-title"><a href="#">information systems product design study
-                                        program</a>
-                                </h5>
-                                >>>>>>> cccfecb (re-style home about)
+                            <h5 class="post-title"><a href="">vehicle wash information system</a></h5>
                         </div>
                     </div>
                 </div>
