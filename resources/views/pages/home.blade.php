@@ -128,12 +128,13 @@
                             </div>
                         </div>
                         <div class="body">
-<<<<<<< HEAD
-                            <h5 class="post-title"><a href="">information systems product design study program</a></h5>
-=======
-                            <h5 class="post-title"><a href="#">information systems product design study program</a>
-                            </h5>
->>>>>>> cccfecb (re-style home about)
+                            <<<<<<< HEAD <h5 class="post-title"><a href="">information systems product design study
+                                    program</a></h5>
+                                =======
+                                <h5 class="post-title"><a href="#">information systems product design study
+                                        program</a>
+                                </h5>
+                                >>>>>>> cccfecb (re-style home about)
                         </div>
                     </div>
                 </div>
