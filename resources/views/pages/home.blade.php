@@ -209,7 +209,7 @@
                             </div>
                         </div>
                         <div class="body">
-                            <h5 class="post-title"><a href="#">information systems product design study program</a></h5>
+                            <h5 class="post-title"><a href="">information systems product design study program</a></h5>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                         <div class="body">
-                            <h5 class="post-title"><a href="#">vehicle wash information system</a></h5>
+                            <h5 class="post-title"><a href="">vehicle wash information system</a></h5>
                         </div>
                     </div>
                 </div>
@@ -235,8 +235,7 @@
                             </div>
                         </div>
                         <div class="body">
-                            <h5 class="post-title"><a href="#">student registration system</a></h5>
-
+                            <h5 class="post-title"><a href="">student registration system</a></h5>
                         </div>
                     </div>
                 </div>
