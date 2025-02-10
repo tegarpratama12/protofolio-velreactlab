@@ -33,7 +33,7 @@
                             <h4 class="text-center"><strong>FullStack Developer</strong></h4>
                             <hr>
                             <div class="profile-card-2">
-                                <img src="img/index.jpg" class="img img-responsive" width="100%" alt="Profile Image">
+                                <img src="{{ asset('img/profile-wan.jpeg') }}" class="img img-responsive" width="100%" alt="Profile Image">
                                 <div class="profile-name">Wildan Abdun Naseer</div>
                                 <div class="profile-username">wildanabdunn@gmail.com</div>
                                 <div class="profile-icons">

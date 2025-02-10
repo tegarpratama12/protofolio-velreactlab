@@ -84,7 +84,7 @@
                                 <h1 class="postcard__title "><a href="#">Wildan Abdun Naseer</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
-                                        <p class="px-2 fw-bold">Back End <span
+                                        <p class="px-2 fw-bold">Full Stack <span
                                                 class="text-primary span-dev px-2">Developer</span></p>
                                     </time>
                                 </div>
