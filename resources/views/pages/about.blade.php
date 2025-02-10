@@ -6,20 +6,22 @@
             <h1 class="text-center fs-3 fw-bold ">About VelReavt <span class="text-primary">.Lab</span></h1>
             <div class="row align-items-center">
                 <div class="col py-5 wow fadeInUp px-4">
-                    <p>In collaboration with two colleagues, I co-founded an organization dedicated to providing top-tier
+                    <article class="text-justify text-muted fs-5 lh-lg">
+                        In collaboration with two colleagues, I co-founded an organization dedicated to providing top-tier
                         website development services utilizing modern frameworks and technologies such as Laravel, Tailwind
                         CSS, Bootstrap, ReactJS, and JavaScript. Our organization, Velreact Lab, derives its name from a
-                        fusion of “Laravel” and “ReactJS,” two powerful technologies that have significantly shaped our
+                        fusion of <span class="text-primary">Laravel</span> and <span class="text-danger">ReactJS</span>, two
+                        powerful technologies that have significantly shaped our
                         approach to web development.
-                    </p>
-                    <p>The inception of Velreact Lab was inspired by our collective passion for innovative web solutions and
+
+                        The inception of Velreact Lab was inspired by our collective passion for innovative web solutions
+                        and
                         a shared recognition of the growing demand for efficient, responsive, and visually appealing digital
                         platforms. We observed that many individuals and businesses were in need of robust, clean, and
                         meticulously crafted websites that could keep pace with the evolving digital landscape. This
                         realization motivated us to combine our skills and experiences to create a company that not only
                         builds websites but also partners with clients to elevate their online presence.
-                    </p>
-                    <p>
+
                         At Velreact Lab, our mission is to deliver websites that are not only clean, well-structured, and
                         fast but also tailored to meet the unique needs of each client—whether they are individuals,
                         startups, or established enterprises. We pride ourselves on our commitment to quality and customer
@@ -27,7 +29,7 @@
                         performance and design. Our journey reflects a dedication to merging innovative design with robust
                         functionality, empowering our clients with digital tools that drive growth and success in today’s
                         competitive market.
-                    </p>
+                    </article>
                 </div>
             </div>
             {{-- content 1 --}}
