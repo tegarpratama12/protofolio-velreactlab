@@ -64,7 +64,7 @@
                                 <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
                             </a>
                             <div class="postcard__text t-dark">
-                                <h1 class="postcard__title red "><a href="#">Podcast Title</a></h1>
+                                <h1 class="postcard__title "><a href="#">Podcast Title</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
                                         <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
