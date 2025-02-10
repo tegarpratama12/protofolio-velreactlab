@@ -28,89 +28,92 @@
                 <h1 class="text-center fs-3 fw-bold mb-4">Our Team
                     <hr class="thick-hr mt-4">
                 </h1>
-                <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
-                    <div class="row g-0 align-items-center">
-                        <!-- Bagian Gambar -->
-                        <div class="col-md-6 text-center">
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-50 w-50 "
-                                style="object-fit: cover; min-height: 300px;">
-                        </div>
-
-                        <!-- Bagian Deskripsi -->
-                        <div class="col-md-6">
-                            <div class="card-body p-4">
-                                <h3 class="card-title fw-bold mb-3">Velreact Lab</h3>
-                                <p class="card-text">Velreact Lab is a team of professionals specializing in the development
-                                    of modern and responsive websites. We leverage Laravel as a robust backend framework,
-                                    combined with Tailwind CSS, Bootstrap, and JavaScript on the frontend to create elegant
-                                    and functional user interfaces.</p>
-                                <p class="card-text">Founded by three experts in the field, our team consists of Information
-                                    Technology graduates with extensive experience in designing efficient, secure, and
-                                    scalable digital solutions. Velreact Lab is committed to transforming your ideas into
-                                    innovative, high-quality web products.</p>
+                <section class="light">
+                    <div class="container py-2">
+                        <article class="postcard light blue">
+                            <a class="postcard__img_link" href="#">
+                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title blue px-2"><a href="#">Tegar Pratama</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <p class="px-2 fw-bold">Back End <span
+                                                class="text-primary span-dev px-2">Developer</span></p>
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">I am a dedicated web developer specializing in backend
+                                    development, with a strong focus on utilizing the Laravel framework. In my role, I am
+                                    responsible for designing, developing, and maintaining the server-side functionality of
+                                    web applications. My expertise includes database management, API integration, and
+                                    performance optimization, ensuring that each project is both secure and scalable. I am
+                                    committed to adhering to industry best practices and continuously strive to deliver
+                                    innovative, high-quality solutions that meet and exceed client expectations.</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play blue">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{-- end content 1 --}}
-            {{-- content 2  --}}
-            <div class="container my-5">
-                <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
-                    <div class="row g-0 align-items-center">
-                        <!-- Bagian Deskripsi (Sekarang di kiri) -->
-                        <div class="col-md-6 order-md-1"> <!-- Urutan pertama di layar medium ke atas -->
-                            <div class="card-body p-4">
-                                <h3 class="card-title fw-bold mb-3">Velreact Lab</h3>
-                                <p class="card-text">Velreact Lab is a team of professionals specializing in the development
-                                    of modern and responsive websites. We leverage Laravel as a robust backend framework,
-                                    combined with Tailwind CSS, Bootstrap, and JavaScript on the frontend to create elegant
-                                    and functional user interfaces.</p>
-                                <p class="card-text">Founded by three experts in the field, our team consists of Information
-                                    Technology graduates with extensive experience in designing efficient, secure, and
-                                    scalable digital solutions. Velreact Lab is committed to transforming your ideas into
-                                    innovative, high-quality web products.</p>
+                        </article>
+                        <article class="postcard light red">
+                            <a class="postcard__img_link" href="#">
+                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title red "><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia,
+                                    doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis
+                                    molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla
+                                    unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play red">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-
-                        <!-- Bagian Gambar (Sekarang di kanan) -->
-                        <div class="col-md-6 text-center order-md-2"> <!-- Urutan kedua di layar medium ke atas -->
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid w-50 h-50"
-                                style="object-fit: cover; min-height: 300px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{-- end content 2 --}}
-            {{-- content 3 --}}
-            <div class="container my-5">
-                <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
-                    <div class="row g-0 align-items-center">
-                        <!-- Bagian Gambar -->
-                        <div class="col-md-6 text-center">
-                            <img src="img/index.jpg" alt="Profile Image" class="img-fluid h-50 w-50"
-                                style="object-fit: cover; min-height: 300px;">
-                        </div>
-
-                        <!-- Bagian Deskripsi -->
-                        <div class="col-md-6">
-                            <div class="card-body p-4">
-                                <h3 class="card-title fw-bold mb-3">Velreact Lab</h3>
-                                <p class="card-text">Velreact Lab is a team of professionals specializing in the development
-                                    of modern and responsive websites. We leverage Laravel as a robust backend framework,
-                                    combined with Tailwind CSS, Bootstrap, and JavaScript on the frontend to create elegant
-                                    and functional user interfaces.</p>
-                                <p class="card-text">Founded by three experts in the field, our team consists of Information
-                                    Technology graduates with extensive experience in designing efficient, secure, and
-                                    scalable digital solutions. Velreact Lab is committed to transforming your ideas into
-                                    innovative, high-quality web products.</p>
+                        </article>
+                        <article class="postcard light green">
+                            <a class="postcard__img_link" href="#">
+                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title green px-3"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia,
+                                    doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis
+                                    molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla
+                                    unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play green">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
+                        </article>
                     </div>
-                </div>
+                </section>
             </div>
-            {{-- end content 3 --}}
         </div>
     </div>
 @endsection

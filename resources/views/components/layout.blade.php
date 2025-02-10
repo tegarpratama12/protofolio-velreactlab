@@ -23,7 +23,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #e6e5eb">
 
     <!-- Back to top button -->
     <div class="back-to-top"></div>

@@ -45,9 +45,1059 @@
 /* end style maps */
 
 .thick-hr {
-    border: none;           /* Menghilangkan border default */
-    height: 4px;            /* Mengatur ketebalan garis */
-    background-color:rgb(194, 194, 194); /* Warna hitam, bisa diubah sesuai kebutuhan */
-    width: 100%;             /* Membuat garis lebih pendek dan seimbang */
-    margin: 0 auto;         /* Agar tetap berada di tengah */
+    border: none; /* Menghilangkan border default */
+    height: 4px; /* Mengatur ketebalan garis */
+    background-color: rgb(
+        194,
+        194,
+        194
+    ); /* Warna hitam, bisa diubah sesuai kebutuhan */
+    width: 100%; /* Membuat garis lebih pendek dan seimbang */
+    margin: 0 auto; /* Agar tetap berada di tengah */
 }
+
+/* about style css */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+$main-green: #79dd09 !default;
+$main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
+$main-yellow: #bdbb49 !default;
+$main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
+$main-red: #bd150b !default;
+$main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
+$main-blue: #0076bd !default;
+$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+
+/* This pen */
+
+.dark {
+    background: #110f16;
+}
+
+.light {
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Cards */
+.postcard {
+    flex-wrap: wrap;
+    display: flex;
+
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+    border-radius: 10px;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+
+    &.dark {
+        background-color: #18151f;
+    }
+
+    &.light {
+        background-color: #e1e5ea;
+    }
+
+    .t-dark {
+        color: #18151f;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    h1,
+    .h1 {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .small {
+        font-size: 80%;
+    }
+
+    .span-dev {
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .postcard__title {
+        font-size: 1.75rem;
+    }
+
+    .postcard__img {
+        max-height: 180px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .postcard__img_link {
+        display: contents;
+    }
+
+    .postcard__bar {
+        width: 50px;
+        height: 10px;
+        margin: 10px 5px;
+        border-radius: 5px;
+        background-color: #424242;
+        transition: width 0.2s ease;
+    }
+
+    .postcard__text {
+        padding: 1.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .postcard__preview-txt {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        height: 100%;
+    }
+
+    .postcard__tagbox {
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        padding: 0;
+        justify-content: center;
+
+        .tag__item {
+            display: inline-block;
+            background: rgba(83, 83, 83, 0.4);
+            border-radius: 3px;
+            padding: 2.5px 10px;
+            margin: 0 5px 5px 0;
+            cursor: default;
+            user-select: none;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background: rgba(83, 83, 83, 0.8);
+            }
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(-70deg, #424242, transparent 50%);
+        opacity: 1;
+        border-radius: 10px;
+    }
+
+    &:hover .postcard__bar {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .postcard {
+        flex-wrap: inherit;
+
+        .postcard__title {
+            font-size: 2rem;
+        }
+
+        .postcard__tagbox {
+            justify-content: start;
+        }
+
+        .postcard__img {
+            max-width: 300px;
+            max-height: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .postcard__text {
+            padding: 3rem;
+            width: 100%;
+        }
+
+        .media.postcard__text:before {
+            content: "";
+            position: absolute;
+            display: block;
+            background: #18151f;
+            top: -20%;
+            height: 130%;
+            width: 55px;
+        }
+
+        &:hover .postcard__img {
+            transform: scale(1.1);
+        }
+
+        &:nth-child(2n + 1) {
+            flex-direction: row;
+        }
+
+        &:nth-child(2n + 0) {
+            flex-direction: row-reverse;
+        }
+
+        &:nth-child(2n + 1) .postcard__text::before {
+            left: -12px !important;
+            transform: rotate(4deg);
+        }
+
+        &:nth-child(2n + 0) .postcard__text::before {
+            right: -12px !important;
+            transform: rotate(-4deg);
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .postcard__text {
+        padding: 2rem 3.5rem;
+    }
+
+    .postcard__text:before {
+        content: "";
+        position: absolute;
+        display: block;
+
+        top: -20%;
+        height: 130%;
+        width: 55px;
+    }
+
+    .postcard.dark {
+        .postcard__text:before {
+            background: #18151f;
+        }
+    }
+
+    .postcard.light {
+        .postcard__text:before {
+            background: #e1e5ea;
+        }
+    }
+}
+
+/* COLORS */
+.postcard .postcard__tagbox .green.play:hover {
+    background: $main-green;
+    color: black;
+}
+
+.green .postcard__title:hover {
+    color: $main-green;
+}
+
+.green .postcard__bar {
+    background-color: $main-green;
+}
+
+.green::before {
+    background-image: linear-gradient(
+        -30deg,
+        $main-green-rgb-015,
+        transparent 50%
+    );
+}
+
+.green:nth-child(2n)::before {
+    background-image: linear-gradient(
+        30deg,
+        $main-green-rgb-015,
+        transparent 50%
+    );
+}
+
+.postcard .postcard__tagbox .blue.play:hover {
+    background: $main-blue;
+}
+
+.blue .postcard__title:hover {
+    color: $main-blue;
+}
+
+.blue .postcard__bar {
+    background-color: $main-blue;
+}
+
+.blue::before {
+    background-image: linear-gradient(
+        -30deg,
+        $main-blue-rgb-015,
+        transparent 50%
+    );
+}
+
+.blue:nth-child(2n)::before {
+    background-image: linear-gradient(
+        30deg,
+        $main-blue-rgb-015,
+        transparent 50%
+    );
+}
+
+.postcard .postcard__tagbox .red.play:hover {
+    background: $main-red;
+}
+
+.red .postcard__title:hover {
+    color: $main-red;
+}
+
+.red .postcard__bar {
+    background-color: $main-red;
+}
+
+.red::before {
+    background-image: linear-gradient(
+        -30deg,
+        $main-red-rgb-015,
+        transparent 50%
+    );
+}
+
+.red:nth-child(2n)::before {
+    background-image: linear-gradient(
+        30deg,
+        $main-red-rgb-015,
+        transparent 50%
+    );
+}
+
+.postcard .postcard__tagbox .yellow.play:hover {
+    background: $main-yellow;
+    color: black;
+}
+
+.yellow .postcard__title:hover {
+    color: $main-yellow;
+}
+
+.yellow .postcard__bar {
+    background-color: $main-yellow;
+}
+
+.yellow::before {
+    background-image: linear-gradient(
+        -30deg,
+        $main-yellow-rgb-015,
+        transparent 50%
+    );
+}
+
+.yellow:nth-child(2n)::before {
+    background-image: linear-gradient(
+        30deg,
+        $main-yellow-rgb-015,
+        transparent 50%
+    );
+}
+
+@media screen and (min-width: 769px) {
+    .green::before {
+        background-image: linear-gradient(
+            -80deg,
+            $main-green-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .green:nth-child(2n)::before {
+        background-image: linear-gradient(
+            80deg,
+            $main-green-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .blue::before {
+        background-image: linear-gradient(
+            -80deg,
+            $main-blue-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .blue:nth-child(2n)::before {
+        background-image: linear-gradient(
+            80deg,
+            $main-blue-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .red::before {
+        background-image: linear-gradient(
+            -80deg,
+            $main-red-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .red:nth-child(2n)::before {
+        background-image: linear-gradient(
+            80deg,
+            $main-red-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .yellow::before {
+        background-image: linear-gradient(
+            -80deg,
+            $main-yellow-rgb-015,
+            transparent 50%
+        );
+    }
+
+    .yellow:nth-child(2n)::before {
+        background-image: linear-gradient(
+            80deg,
+            $main-yellow-rgb-015,
+            transparent 50%
+        );
+    }
+}
+/* end about style css */
+
+/* home our team */
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card-1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-image: url(../img/profile-bg-1.jpg);
+    background-position: center;
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.profile-card-1 .profile-content {
+    position: relative;
+    background-color: #fff;
+    padding: 70px 20px 20px 20px;
+    text-align: center;
+}
+
+.profile-card-1 .profile-img {
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    top: -50px;
+    transition: all 0.25s linear;
+    transform-style: preserve-3d;
+}
+
+.profile-card-1 .profile-img img {
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-1 .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #021830;
+}
+
+.profile-card-1 .profile-address {
+    color: #777;
+    font-size: 12px;
+    margin: 0px 0px 15px 0px;
+}
+
+.profile-card-1 .profile-description {
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #777;
+}
+
+.profile-card-1 .profile-icons .fa {
+    margin: 5px;
+    color: #777;
+}
+
+.profile-card-1:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-1:hover .profile-img {
+    transform: rotateY(180deg);
+}
+
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #fff;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+.profile-card-3 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 25px 15px;
+}
+
+.profile-card-3 .profile-name {
+    font-weight: bold;
+    color: #21304e;
+}
+
+.profile-card-3 .profile-location {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.profile-card-3 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+}
+
+.profile-card-3 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+
+.profile-card-3 .profile-icons {
+    margin: 15px 0px;
+}
+
+.profile-card-3 .profile-icons .fa {
+    color: #fe455a;
+    margin: 0px 5px;
+}
+
+.profile-card-3:hover img {
+    height: 110px;
+    width: 110px;
+    margin: 5px auto;
+}
+
+.profile-card-4 {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+.profile-card-5 {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 50px 15px 25px 15px;
+}
+
+.profile-card-5 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+    position: relative;
+}
+
+.profile-card-5::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    left: 0px;
+    height: 170px;
+    background-color: #4fb96e;
+    transform: skewY(-20deg);
+}
+
+.profile-card-5 .profile-name {
+    padding-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-card-5 .profile-designation {
+    font-size: 13px;
+    color: #777;
+}
+
+.profile-card-3 .profile-location {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.profile-card-5 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+
+.profile-card-5 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-5 .profile-overview p {
+    color: #777;
+    font-size: 13px;
+}
+
+.profile-card-5 .profile-overview h2 {
+    font-weight: bold;
+    color: #1e2832;
+}
+
+.profile-card-5 .profile-icons .fa {
+    margin: 7px;
+    color: #4fb96e;
+}
+
+.profile-card-5:hover img {
+    transform: rotate(-5deg);
+}
+
+.profile-card-6 {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-6 img {
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 20px;
+    background: linear-gradient(
+        140deg,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(255, 255, 0, 0) 50%
+    );
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-position {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    left: 30px;
+    top: 100px;
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(255, 255, 0, 0)
+    );
+    color: #fff;
+    padding: 50px 0px 20px 0px;
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview h3 {
+    font-weight: bold;
+}
+
+.profile-card-6 .profile-overview p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-card-6:hover img {
+    filter: brightness(80%);
+}
+
+.profile-card-6:hover .profile-name {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.profile-card-6:hover .profile-position {
+    left: 40px;
+}
+
+.profile-card-6:hover .profile-overview {
+    padding-bottom: 25px;
+}
+
+.profile-card-7 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-7 .profile-content {
+    padding: 60px 30px 30px 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+.profile-card-7 .profile-content img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: -40px;
+    border: 5px solid #fff;
+}
+
+.profile-card-7 .profile-content .profile-name {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    top: -35px;
+    left: 125px;
+    color: #fff;
+}
+
+.profile-card-7 .profile-overview {
+    padding: 5px 0px;
+}
+
+.profile-card-7 .profile-overview p {
+    color: #777;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.profile-card-7 .profile-overview h5 {
+    color: #142437;
+    font-weight: bold;
+}
+
+.profile-card-8 {
+    background: linear-gradient(#09121c, #36445a);
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.profile-card-8 .profile-name {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25px;
+    color: #58d683;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-card-8 .profile-designation {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile-card-8 .profile-icons {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-card-8 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-8:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.profile-card-9 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 30px 15px;
+    background-color: #fff;
+    transition: all 0.25s linear;
+}
+
+.profile-card-9 img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.profile-card-9 .profile-name {
+    font-size: 15px;
+    color: #3249b9;
+    font-weight: 600;
+}
+
+.profile-card-9 .profile-designation {
+    font-size: 13px;
+    color: #777;
+}
+
+.profile-card-9 .profile-description {
+    padding: 10px;
+    font-size: 13px;
+    color: #777;
+    margin: 15px 0px;
+    background-color: #f1f2f3;
+    border-radius: 5px;
+}
+
+.profile-card-9 a {
+    padding: 10px 15px;
+    background-color: #3249b9;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+.profile-card-9:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.profile-card-10 {
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 30px 15px;
+    background-color: #1f2124;
+    color: #eee;
+}
+
+.profile-card-10 img {
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    box-shadow: 0px 0px 0px 2px #64c17b;
+    transition: all 0.25s linear;
+}
+
+.profile-card-10 .profile-name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.profile-card-10 .profile-location {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.profile-card-10 .profile-description {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.profile-card-10 .profile-icons .fa {
+    color: #ffc75e;
+    margin: 10px;
+}
+
+.profile-card-10:hover img {
+    transform: scale(1.1);
+}
+/* end home our team */
