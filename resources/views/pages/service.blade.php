@@ -1,52 +1,50 @@
 @extends('components.layout')
 
 @section('content')
-    <!-- AOS Animation CSS -->
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-<section id="services" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5 fw-bold">Our Services</h2>
+<section id="services" class="services section"><br>
 
-        <div class="row align-items-center mb-5 gy-4">
-            <div class="col-lg-6 text-center text-lg-start" data-aos="fade-up">
-                <img src="/img/costume.jpg" class="img-fluid rounded shadow mx-auto d-block" alt="Service 1" style="max-width: 90%;">
-            </div>
-            <div class="col-lg-6" data-aos="fade-up">
-                <h3 class="mt-3 mt-lg-0">Custom Laravel Development</h3>
-                <p class="px-3 px-lg-0">
-                    We provide high-performance Laravel development tailored to your business needs. 
-                    From small startups to large enterprises, we craft scalable and secure applications.
-                </p>
-            </div>
+    <div class="container text-center" data-aos="fade-up">
+        <h2 class="fw-bold">OUR SERVICES</h2>
+        <p class="fw-bold">Explore Car Washing Services</p>
+        <div class="underline mx-auto">
+        <span class="line red"></span>
+        <span class="line black"></span>
+        <span class="line red"></span>
         </div>
+    </div><br>
 
-        <div class="row align-items-center mb-5 gy-4 flex-lg-row-reverse">
-            <div class="col-lg-6 text-center text-lg-end" data-aos="fade-up">
-                <img src="/img/api.jpg" class="img-fluid rounded shadow mx-auto d-block" alt="Service 2" style="max-width: 90%;">
-            </div>
-            <div class="col-lg-6" data-aos="fade-up">
-                <h3 class="mt-3 mt-lg-0">API & Backend Development</h3>
-                <p class="px-3 px-lg-0">
-                    We build robust and secure API solutions, ensuring seamless data exchange between applications.
-                    Enhance your web or mobile app with a powerful Laravel backend.
-                </p>
-            </div>
-        </div>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row align-items-center mb-5 gy-4">
-            <div class="col-lg-6 text-center text-lg-start" data-aos="fade-up">
-                <img src="/img/optimal.jpg" class="img-fluid rounded shadow mx-auto d-block" alt="Service 3" style="max-width: 90%;">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="img/api.jpg" alt="Service 1">
+                    <div class="icon"><i class="bi bi-activity"></i></div>
+                    <h3>Nesciunt Mete</h3>
+                    <p>Provident nihil minus qui consequatur non omnis maiores.</p>
+                </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up">
-                <h3 class="mt-3 mt-lg-0">Web Performance Optimization</h3>
-                <p class="px-3 px-lg-0">
-                    Our team optimizes website performance to improve speed, SEO, and user experience. 
-                    With advanced caching, database tuning, and code refinement, we make your site lightning-fast.
-                </p>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="img/api.jpg" alt="Service 2">
+                    <div class="icon"><i class="mai-logo-broadcast"></i></div>
+                    <h3>Eosle Commodi</h3>
+                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint.</p>
+                </div>
             </div>
-        </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="img/api.jpg" alt="Service 3">
+                    <div class="icon"><i class="bi bi-easel"></i></div>
+                    <h3>Ledo Markt</h3>
+                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.</p>
+                </div>
+            </div>
+        </div><br>
+
     </div>
+
 </section>
 <!-- AOS Animation JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
