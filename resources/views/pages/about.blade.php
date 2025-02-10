@@ -61,17 +61,17 @@
                                     innovative, high-quality solutions that meet and exceed client expectations.</div>
                                 <ul class="postcard__tagbox">
                                     <li class="tag__item">
-                                        <a href="">
+                                        <a href="https://www.instagram.com/tegar.pratama_12/">
                                             <i class="bi bi-instagram"></i> Instagram
                                         </a>
                                     </li>
                                     <li class="tag__item">
-                                        <a href="">
+                                        <a href="https://www.linkedin.com/in/tegarpratama1099">
                                             <i class="bi bi-linkedin"></i> Linkedin
                                     </li>
                                     </a>
                                     <li class="tag__item play blue">
-                                        <a href="#"><i class="bi bi-github"></i> Github</a>
+                                        <a href="https://github.com/tegarpratama12"><i class="bi bi-github"></i> Github</a>
                                     </li>
                                 </ul>
                             </div>

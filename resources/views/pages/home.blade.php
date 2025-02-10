@@ -19,11 +19,13 @@
                             <div class="profile-card-2"><img src="img/index.jpg" class="img img-responsive" width="100%"
                                     alt="Profile Image">
                                 <div class="profile-name">Tegar Pratama</div>
-                                <div class="profile-username">@tegarprarama461@gmail.com</div>
+                                <div class="profile-username">tegarprarama461@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                    <a href="https://www.instagram.com/tegar.pratama_12/"><i
+                                            class="bi bi-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/tegarpratama1099"><i
+                                            class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/tegarpratama12"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -35,9 +37,9 @@
                                 <div class="profile-name">Tegar Pratama</div>
                                 <div class="profile-username">@tegarprarama461@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +52,9 @@
                                 <div class="profile-name">Tegar Pratama</div>
                                 <div class="profile-username">@tegarprarama461@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
