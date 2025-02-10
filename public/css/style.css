@@ -549,6 +549,8 @@ a:hover {
     color: #777;
 }
 
+/* end style icon  */
+
 .profile-card-1:hover {
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
 }
@@ -1140,14 +1142,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-  }
-  .line {
+}
+.line {
     width: 20px;
     height: 3px;
     margin: 0 3px;
-  }
+}
 
-  .black {
+.black {
     background-color: black;
     width: 30px;
-  }
+}

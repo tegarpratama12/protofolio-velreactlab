@@ -20,11 +20,28 @@
                                     alt="Profile Image">
                                 <div class="profile-name">Tegar Pratama</div>
                                 <div class="profile-username">@tegarprarama461@gmail.com</div>
-                                <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
-                                        href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                            class="fa fa-linkedin"></i></a></div>
+                                <div class="profile-icons">
+                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <h4 class="text-center"><strong>Back End Developer</strong></h4>
+                            <hr>
+                            <div class="profile-card-2">
+                                <img src="img/index.jpg" class="img img-responsive" width="100%" alt="Profile Image">
+                                <div class="profile-name">Tegar Pratama</div>
+                                <div class="profile-username">@tegarprarama461@gmail.com</div>
+                                <div class="profile-icons">
+                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-md-4">
                             <h4 class="text-center"><strong>Back End Developer</strong></h4>
                             <hr>
@@ -33,27 +50,10 @@
                                 <div class="profile-name">Tegar Pratama</div>
                                 <div class="profile-username">@tegarprarama461@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i></a>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
+                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-github"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <h4 class="text-center"><strong>Back End Developer</strong></h4>
-                            <hr>
-                            <div class="profile-card-2"><img src="img/index.jpg" class="img img-responsive" width="100%"
-                                    alt="Profile Image">
-                                <div class="profile-name">Tegar Pratama</div>
-                                <div class="profile-username">@tegarprarama461@gmail.com</div>
-                                <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
-                                        href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                            class="fa fa-linkedin"></i></a></div>
                             </div>
                         </div>
                     </div>
