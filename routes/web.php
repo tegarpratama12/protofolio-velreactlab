@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Project;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,8 +38,4 @@ Route::get('/contact', function () {
         'title' => 'Contact'
     ]);
 })->name('contact');
-
-Route::get('/index', function () {
-    return view('template.contact');
-});
 
