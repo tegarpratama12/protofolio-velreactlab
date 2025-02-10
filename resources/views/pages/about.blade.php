@@ -3,24 +3,31 @@
 @section('content')
     <div class="page-section" id="about">
         <div class="container">
-            <h1 class="text-center fs-3 fw-bold ">About Us</h1>
+            <h1 class="text-center fs-3 fw-bold ">About VelReavt <span class="text-primary">.Lab</span></h1>
             <div class="row align-items-center">
-                <div class="col-lg-6 py-3 wow fadeInUp">
-                    <p>Velreact Lab is a team of professionals specializing in the development of modern and
-                        responsive
-                        websites. We leverage Laravel as a robust backend framework, combined with Tailwind CSS,
-                        Bootstrap, and JavaScript on the frontend to create elegant and functional user interfaces.
+                <div class="col py-5 wow fadeInUp px-4">
+                    <p>In collaboration with two colleagues, I co-founded an organization dedicated to providing top-tier
+                        website development services utilizing modern frameworks and technologies such as Laravel, Tailwind
+                        CSS, Bootstrap, ReactJS, and JavaScript. Our organization, Velreact Lab, derives its name from a
+                        fusion of “Laravel” and “ReactJS,” two powerful technologies that have significantly shaped our
+                        approach to web development.
                     </p>
-                    <p>Founded by three experts in the field, our team consists of Information Technology graduates
-                        with
-                        extensive experience in designing efficient, secure, and scalable digital solutions.
-                        Velreact
-                        Lab is committed to transforming your ideas into innovative, high-quality web products.</p>
-                </div>
-                <div class="col-lg-6 py-3 wow fadeInRight">
-                    <div class="img-fluid py-3 text-center">
-                        <img src="/img/about-us.gif" width="100%" alt="">
-                    </div>
+                    <p>The inception of Velreact Lab was inspired by our collective passion for innovative web solutions and
+                        a shared recognition of the growing demand for efficient, responsive, and visually appealing digital
+                        platforms. We observed that many individuals and businesses were in need of robust, clean, and
+                        meticulously crafted websites that could keep pace with the evolving digital landscape. This
+                        realization motivated us to combine our skills and experiences to create a company that not only
+                        builds websites but also partners with clients to elevate their online presence.
+                    </p>
+                    <p>
+                        At Velreact Lab, our mission is to deliver websites that are not only clean, well-structured, and
+                        fast but also tailored to meet the unique needs of each client—whether they are individuals,
+                        startups, or established enterprises. We pride ourselves on our commitment to quality and customer
+                        satisfaction, ensuring that every project we undertake adheres to the highest standards of
+                        performance and design. Our journey reflects a dedication to merging innovative design with robust
+                        functionality, empowering our clients with digital tools that drive growth and success in today’s
+                        competitive market.
+                    </p>
                 </div>
             </div>
             {{-- content 1 --}}
@@ -51,10 +58,18 @@
                                     committed to adhering to industry best practices and continuously strive to deliver
                                     innovative, high-quality solutions that meet and exceed client expectations.</div>
                                 <ul class="postcard__tagbox">
-                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item">
+                                        <a href="">
+                                            <i class="bi bi-instagram"></i> Instagram
+                                        </a>
+                                    </li>
+                                    <li class="tag__item">
+                                        <a href="">
+                                            <i class="bi bi-linkedin"></i> Linkedin
+                                    </li>
+                                    </a>
                                     <li class="tag__item play blue">
-                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                        <a href="#"><i class="bi bi-github"></i> Github</a>
                                     </li>
                                 </ul>
                             </div>
