@@ -117,26 +117,32 @@
                         </article>
                         <article class="postcard light green">
                             <a class="postcard__img_link" href="#">
-                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                                <img class="postcard__img" src="img/profile-no.jpg" alt="Image Title" />
                             </a>
                             <div class="postcard__text t-dark">
-                                <h1 class="postcard__title green px-3"><a href="#">Podcast Title</a></h1>
+                                <h1 class="postcard__title green px-3"><a href="#">Naufal Ulum</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
-                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                        <p class="px-2 fw-bold">Front End <span
+                                                class="text-primary span-dev px-2">Developer</span></p>
                                     </time>
                                 </div>
                                 <div class="postcard__bar"></div>
-                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia,
-                                    doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis
-                                    molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla
-                                    unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <div class="postcard__preview-txt">I am a frontend web developer with a strong focus on creating dynamic, user-friendly, and visually appealing interfaces. Specializing in modern frontend technologies, I develop responsive and interactive web applications that provide seamless user experiences. My expertise includes HTML, CSS, JavaScript, and frameworks , ensuring high performance and compatibility across various devices. I am passionate about crafting intuitive designs and implementing best practices in UI/UX to enhance usability and engagement. Committed to continuous learning, I strive to deliver high-quality solutions that align with industry standards and user expectations.</div>
                                 <ul class="postcard__tagbox">
-                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-                                    <li class="tag__item play green">
-                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    <li class="tag__item">
+                                        <a href="https://www.instagram.com/nofall43/">
+                                            <i class="bi bi-instagram"></i> Instagram
+                                        </a>
+                                    </li>
+                                    <li class="tag__item">
+                                        <a href="/">
+                                            <i class="bi bi-linkedin"></i> Linkedin
+                                    </li>
+                                    </a>
+                                    <li class="tag__item play blue">
+                                        <a href="https://github.com/4naufalulum">
+                                            <i class="bi bi-github"></i> Github</a>
                                     </li>
                                 </ul>
                             </div>
