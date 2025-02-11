@@ -84,7 +84,7 @@
                                 <h1 class="postcard__title "><a href="#">Wildan Abdun Naseer</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
-                                        <p class="px-2 fw-bold">Full Stack <span
+                                        <p class="px-2 fw-bold">Full Stack Web<span
                                                 class="text-primary span-dev px-2">Developer</span></p>
                                     </time>
                                 </div>
@@ -117,13 +117,14 @@
                         </article>
                         <article class="postcard light green">
                             <a class="postcard__img_link" href="#">
-                                <img class="postcard__img" src="img/index.jpg" alt="Image Title" />
+                                <img class="postcard__img" src="img/profile-no.jpg" alt="Image Title" />
                             </a>
                             <div class="postcard__text t-dark">
-                                <h1 class="postcard__title green px-3"><a href="#">Podcast Title</a></h1>
+                                <h1 class="postcard__title green px-3"><a href="#">Naufal Ulum</a></h1>
                                 <div class="postcard__subtitle small">
                                     <time datetime="2020-05-25 12:00:00">
-                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                        <p class="px-2 fw-bold">Front End <span
+                                            class="text-primary span-dev px-2">Developer</span></p>
                                     </time>
                                 </div>
                                 <div class="postcard__bar"></div>
