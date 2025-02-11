@@ -45,16 +45,16 @@
                         </div>
 
                         <div class="col-md-4">
-                            <h4 class="text-center"><strong>Back End Developer</strong></h4>
+                            <h4 class="text-center"><strong>Front End Developer</strong></h4>
                             <hr>
-                            <div class="profile-card-2"><img src="img/index.jpg" class="img img-responsive" width="100%"
+                            <div class="profile-card-2"><img src="img/profile-no.jpg" class="img img-responsive" width="100%"
                                     alt="Profile Image">
-                                <div class="profile-name">Tegar Pratama</div>
-                                <div class="profile-username">@tegarprarama461@gmail.com</div>
+                                <div class="profile-name">Naufal Ulum</div>
+                                <div class="profile-username">@naufalulum33@gmail.com</div>
                                 <div class="profile-icons">
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-github"></i></a>
+                                    <a href="https://www.instagram.com/nofall43/"><i class="bi bi-instagram"></i></a>
+                                    <a href="/"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/4naufalulum"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
