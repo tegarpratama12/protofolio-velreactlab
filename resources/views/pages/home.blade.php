@@ -50,7 +50,7 @@
                             <div class="profile-card-2"><img src="img/profile-no.jpg" class="img img-responsive" width="100%"
                                     alt="Profile Image">
                                 <div class="profile-name">Naufal Ulum</div>
-                                <div class="profile-username">@naufalulum33@gmail.com</div>
+                                <div class="profile-username">naufalulum33@gmail.com</div>
                                 <div class="profile-icons">
                                     <a href="https://www.instagram.com/nofall43/"><i class="bi bi-instagram"></i></a>
                                     <a href="/"><i class="bi bi-linkedin"></i></a>
