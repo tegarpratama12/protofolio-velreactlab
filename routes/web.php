@@ -39,3 +39,7 @@ Route::get('/contact', function () {
     ]);
 })->name('contact');
 
+Route::fallback(function () {
+    return redirect('/');
+});
+
